@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fd1873d-c120-48de-9a03-3069b031b291">
+  <producedTypes>
+    <objectType typeId="973df68a-c6be-4e03-ac20-bf1fe4cb63a5" valueTypeId="976b091f-54d1-4f0c-abbf-bdec95fcd1db"/>
+    <refType typeId="bdf3ce98-0087-4a85-86dc-85691d1e562e" valueTypeId="fafeb120-38db-4950-9377-37e61546375c"/>
+    <selectionType typeId="a57512a2-8b7b-4ad3-b379-459f5f0fcfca" valueTypeId="8dd46931-0207-45ee-b121-015b922995ea"/>
+    <listType typeId="c0e10e18-41c9-43d1-bab4-55914b02bf17" valueTypeId="fb2109f2-6a2c-47c4-bf9d-d34fe523595d"/>
+    <managerType typeId="3546b592-3fbc-46e6-aaf7-64e73de050d1" valueTypeId="3dd3d9af-f886-49ab-be88-b8811407f7a8"/>
+  </producedTypes>
+  <name>СерверыElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серверы elasticsearch</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СерверыElasticsearch.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СерверыElasticsearch.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СерверыElasticsearch.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0fb458f0-48bb-4d19-a9d7-697e63c3022c">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21be85a6-2abc-4333-806c-110385c22a62">
+    <name>Порт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ebfabb4c-2b2f-425b-a374-c196938f6421">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89c8c6a9-4c7e-4957-b695-ff2d97182d97">
+  <producedTypes>
+    <selectionType typeId="9b798fc3-e7ee-4c50-a7e9-108d4d078ec2" valueTypeId="3f2c041e-e8c8-4d95-935c-edf7c45ff8ae"/>
+    <listType typeId="29d889d0-bf99-423d-b5c1-fa624c8efea5" valueTypeId="283032a0-e386-46ee-a0ec-da67fa1c0e28"/>
+    <managerType typeId="d6d59672-38f8-4469-97ec-dcedd83c8fc1" valueTypeId="1d0e59a3-ec2b-4761-b3ec-75c41615ecfc"/>
+    <recordSetType typeId="56d4c9e1-c3b4-4ab7-aa47-18e0ac89bcc7" valueTypeId="3cf02781-d1eb-46e6-89d3-49664851f516"/>
+    <recordKeyType typeId="1efecfe7-d628-45b0-9182-4a05c9576891" valueTypeId="1eb30637-f196-4ccb-86df-83dda10f327c"/>
+    <recordType typeId="8eeac720-b014-4d20-a2a7-34758fbb67b6" valueTypeId="05efa70b-ce0d-4a1d-9304-6012bca0886b"/>
+    <recordManagerType typeId="e77ac76e-b5fc-4982-8567-5c940482fb2d" valueTypeId="34b1f80f-e56e-451a-b20f-33f559e98318"/>
+  </producedTypes>
+  <name>ОтправленныеДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправленные даты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="84acfa4f-f22f-4ead-b6c5-532784e29303">
+    <name>ПоследняяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="87a1e51e-8a90-47b5-9d0b-b5608ec25011">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

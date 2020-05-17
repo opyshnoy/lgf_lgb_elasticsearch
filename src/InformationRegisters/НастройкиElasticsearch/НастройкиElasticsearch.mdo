@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="179f1d28-4dba-42c5-9b76-a50a90825cac">
+  <producedTypes>
+    <selectionType typeId="f81dc797-17cd-4c87-b6d7-dd338d946c3e" valueTypeId="83cc39fe-ad05-47b2-872d-f46e19718082"/>
+    <listType typeId="d943dfdd-8fdc-4360-8ff3-c603cf36611c" valueTypeId="64cd5ee7-3db2-4f06-96db-3bed71f047ff"/>
+    <managerType typeId="79b400b0-bd9c-49c8-8d7f-628f6ccbc332" valueTypeId="496592b9-0047-4961-8c55-99413c07da28"/>
+    <recordSetType typeId="956744df-fcf9-4798-9c26-34ce7ff8908f" valueTypeId="bc44618d-eb80-4773-9f21-0c99fb4edd96"/>
+    <recordKeyType typeId="1f7c01e4-4f8b-4bfa-b849-2d6fee8ab11c" valueTypeId="f3b77734-eb31-4287-9e2e-5991aa96d649"/>
+    <recordType typeId="3f443384-2f25-4539-91d7-b91b3b85e753" valueTypeId="68bfeefa-c1ba-4291-a17a-80e6452bb4f1"/>
+    <recordManagerType typeId="a93d97a9-101e-4722-b445-26281d8babcc" valueTypeId="504ee872-0ba7-4fe9-84eb-8140376b3a38"/>
+  </producedTypes>
+  <name>НастройкиElasticsearch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки elasticsearch</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f9f21767-6c6d-4e4b-a5cb-2e521800822f">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="888443e9-37bf-481e-901c-7fe87948ad63">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность отправки(сек)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="938a679b-d7c9-4675-bbed-50116ed4ce61">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="f5759fcb-8f79-4d3b-862e-e16532e1d77c">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment>Дата с которой следует начать выгрузку (при первой настройке)</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="f51009b4-7d9e-47eb-b468-f06a1cc848c3">
+    <name>РазмерПачки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер пачки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="8a90151b-bca3-4aac-afdc-04f0e4ea1887">
+    <name>ПодробныйЛог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробный лог</value>
+    </synonym>
+    <comment>Записываются все события или только ошибки</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="7d2af501-a566-4cf5-be79-fb013d8d8242">
+    <name>СерверElasticsearch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер elasticsearch</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыElasticsearch</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

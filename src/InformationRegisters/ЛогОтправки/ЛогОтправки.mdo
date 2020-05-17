@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cf569e5-7a5a-4da5-b885-75e86633658f">
+  <producedTypes>
+    <selectionType typeId="676d5127-a9ec-43e1-8213-05ea0b4807a1" valueTypeId="bb8df6ea-bfdf-416f-932f-991a3be45498"/>
+    <listType typeId="57d1b82c-02af-4c30-857e-bd9cbb737571" valueTypeId="0f5b2054-7b6f-4760-aa53-94a79d5ac1b5"/>
+    <managerType typeId="f5a9a6c7-206f-4a49-bb11-c745e427d3bc" valueTypeId="a67797b3-acb1-465a-bbdd-bd8b3262e9f8"/>
+    <recordSetType typeId="8c727e3d-4a83-4c70-95ea-b879817e3583" valueTypeId="643fcfd4-e63a-476a-a867-17165f51708c"/>
+    <recordKeyType typeId="4e067f22-053f-4f09-ae7e-e8cd12297d25" valueTypeId="fc58c290-4355-4256-9de7-6f5794595969"/>
+    <recordType typeId="6a8ff0f4-20d2-4c5a-953e-a093133b8797" valueTypeId="0aadbd74-ad21-4540-bfde-493420e58892"/>
+    <recordManagerType typeId="5b5e39ae-f6e8-4db6-bfdd-4b5d8f813238" valueTypeId="2b5b0dc6-3d7b-4eea-9850-d5e16e644699"/>
+  </producedTypes>
+  <name>ЛогОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лог отправки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="adb93f82-d858-43f4-8ba0-72be1217bb2d">
+    <name>ОтправкаУспешна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка успешна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="dc63b025-cff8-4b67-b2d9-09e2068f44c1">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="70b0d8a4-2ca9-49b3-a8fd-896665fce763">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыElasticsearch</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
